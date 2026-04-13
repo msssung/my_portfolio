@@ -3,23 +3,23 @@ import FeatureCard from "../components/FeatureCard";
 
 const HomePage = () => {
   const features = [
-    {
-      title: "소개",
-      description: "제 소개입니다.",
-    },
-    {
-      title: "프로젝트",
-      description: "제가 만든 프로젝트들 입니다.",
-    },
-    {
-      title: "연락처",
-      description: "저에게 연락하는 방법입니다.",
-    },
-    {
-      title: "여러분이 원하는",
-      description: "항목을 새로 만들어 보세요.",
-    },
-  ];
+  {
+    title: "소개",
+    description: "정보통신공학과 데이터사이언스SW를 전공하는 학생입니다.",
+  },
+  {
+    title: "프로젝트",
+    description: "React와 Python을 활용한 프로젝트들입니다.",
+  },
+  {
+    title: "연락처",
+    description: "kms_0109@naver.com으로 연락주시면 빠르게 답변드립니다.",
+  },
+  {
+    title: "기술 스택",
+    description: "AI/ML 관련 내용을 학습하고 있습니다.",
+  },
+];
 
   return (
     <div className="home-container">

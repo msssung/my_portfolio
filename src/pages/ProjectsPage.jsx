@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
-import sampleImage from "../assets/calcu.png";
+
 
 /**
  * 프로젝트 페이지 컴포넌트
@@ -8,21 +8,19 @@ import sampleImage from "../assets/calcu.png";
  */
 const ProjectsPage = () => {
   const projects = [
-    {
-      title: "나의 프로젝트1",
-      description: "React를 사용하여 만든 계산기 애플리케이션",
-      image: sampleImage,
-    },
-    {
-      title: "나의 프로젝트2",
-      description: "캡스톤 프로젝트에서의 딥러닝 기반 영상 분류 시스템",
-    },
-    {
-      title: "나의 프로젝트3",
-      description: "나만의 맛집 저장리스트 ~~",
-      link: "https://map.naver.com/p/entry/place/18697937?c=15.00,0,0,0,dh",
-    },
-  ];
+  {
+    title: "AI 기반 기사 모니터링 서비스",
+    description: "AI를 활용하여 실시간으로 뉴스 기사를 수집 및 분석하는 자동화 모니터링 서비스",
+  },
+  {
+    title: "AI 기반 쿠버네티스 환경 모니터링 시스템",
+    description: "AI를 적용하여 쿠버네티스 클러스터의 이상 징후를 탐지하고 자동으로 알림을 제공하는 시스템",
+  },
+  {
+    title: "MLOps 프로젝트",
+    description: "머신러닝 모델의 학습, 배포, 모니터링을 자동화한 MLOps 파이프라인 구축 프로젝트",
+  },
+];
 
   return (
     <div className="projects-container">
